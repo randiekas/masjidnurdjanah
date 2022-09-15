@@ -19,6 +19,7 @@
 				Rutin Pagi
 			</p>
 			<v-card 
+				rounded="lg"
 				dark 
 				color="primary"
                 hover>
@@ -66,6 +67,7 @@
 				Rutin Tambahan
 			</p>
 			<v-card 
+				rounded="lg"
 				dark 
 				color="primary"
                 hover>

@@ -18,11 +18,11 @@
 
 	</v-card>
 	<v-container style="margin-top:-180px;" class="primary accent2">
-		<v-card flat color="transparent">
+		<v-card rounded="lg" flat color="transparent">
 			<h1 class="white--text text-h4">Hafalan</h1>
 			<p class="white--text">Challenge Menghafal 10 Ayat/hari</p>
 		</v-card>
-		<v-card>
+		<v-card rounded="lg">
 			<v-card-text class="d-flex align-center">
 				<div class="mr-2" style="width:150px">
 					<v-card color="teal lighten-4" elevation="0">
@@ -66,7 +66,7 @@
 		<v-col cols="12">
 		</v-col>
 		<v-col cols="12">
-			<v-card dark color="secondary">
+			<v-card dark color="secondary" rounded="lg">
 				<v-list-item
 					v-on:click="fabKeutamaanMenghafalAlquran=true">
 					<v-list-item-avatar>
@@ -86,6 +86,7 @@
 			v-if="surat.length>0">
 			<p class="text-overline mb-0">Hafalan Terakhir</p>
 			<v-card 
+				rounded="lg"
 				dark 
 				color="primary"
 				:to="`/surat/${ayatTarget.id}`"
@@ -113,7 +114,8 @@
 				cols="12"
 				md="4"
 				:key="index">
-				<v-card 
+				<v-card 	
+					rounded="lg"
 					dark 
 					color="primary" >
 					<v-list-item
@@ -148,6 +150,7 @@
 		persistent
 		max-width="480">
 	<v-card 
+		rounded="lg"
 		v-if="fab"
 		class="card-chat d-flex flex-column justify-content-between"
 		flat

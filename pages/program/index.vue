@@ -8,11 +8,12 @@
 			<h1 class="white--text text-h4">Program</h1>
 			<p class="white--text">Berikut program program Masjid Nurdjanah</p>
 		</v-card>
-		<v-card>
+		<v-card rounded="lg">
 			<p class="mb-0 px-4 py-2"><b>Program Berjalan</b></p>
 			<v-divider/>
 			<v-card-text>
 				<v-card 
+				rounded="lg"
 				dark 
 				color="primary"
 				:to="`/program/1`"
@@ -60,6 +61,7 @@
 				Semua Program
 			</p>
 			<v-card 
+				rounded="lg"
 				dark 
 				color="primary"
 				:to="`/program/1`"
@@ -78,6 +80,7 @@
 				</v-list-item>
 			</v-card>
 			<v-card 
+				rounded="lg"
 				class="mt-2"
 				dark 
 				color="primary"

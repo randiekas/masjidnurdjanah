@@ -8,36 +8,34 @@
 			<h1 class="white--text text-h4">Masjid Nurdjanah</h1>
 			<p class="white--text">Jl. Ciuyah No.50, Padaasih, Kec. Cisarua, Kabupaten Bandung Barat, Jawa Barat 40551</p>
 		</v-card>
-        <v-card>
-            <v-card>
-                <v-list-item
-                    to="/info/keuangan">
-                    <v-list-item-avatar>
-                        <v-icon>mdi-cash-sync</v-icon>
-                    </v-list-item-avatar>
-                    <v-list-item-content>
-                        <v-list-item-title>Keuangan</v-list-item-title>
-                        <v-list-item-subtitle>Laporan Keuangan</v-list-item-subtitle>
-                    </v-list-item-content>
-                    <v-list-item-action-text>
-                        <v-icon>mdi-chevron-right</v-icon>
-                    </v-list-item-action-text>
-                </v-list-item>
-                <v-divider/>
-                <v-list-item
-                    to="/info/dkm">
-                    <v-list-item-avatar>
-                        <v-icon>mdi-account-group</v-icon>
-                    </v-list-item-avatar>
-                    <v-list-item-content>
-                        <v-list-item-title>DKM</v-list-item-title>
-                        <v-list-item-subtitle>List anggota DKM</v-list-item-subtitle>
-                    </v-list-item-content>
-                    <v-list-item-action-text>
-                        <v-icon>mdi-chevron-right</v-icon>
-                    </v-list-item-action-text>
-                </v-list-item>
-            </v-card>
+        <v-card rounded="lg">
+            <v-list-item
+                to="/info/keuangan">
+                <v-list-item-avatar>
+                    <v-icon>mdi-cash-sync</v-icon>
+                </v-list-item-avatar>
+                <v-list-item-content>
+                    <v-list-item-title>Keuangan</v-list-item-title>
+                    <v-list-item-subtitle>Laporan Keuangan</v-list-item-subtitle>
+                </v-list-item-content>
+                <v-list-item-action-text>
+                    <v-icon>mdi-chevron-right</v-icon>
+                </v-list-item-action-text>
+            </v-list-item>
+            <v-divider/>
+            <v-list-item
+                to="/info/dkm">
+                <v-list-item-avatar>
+                    <v-icon>mdi-account-group</v-icon>
+                </v-list-item-avatar>
+                <v-list-item-content>
+                    <v-list-item-title>DKM</v-list-item-title>
+                    <v-list-item-subtitle>List anggota DKM</v-list-item-subtitle>
+                </v-list-item-content>
+                <v-list-item-action-text>
+                    <v-icon>mdi-chevron-right</v-icon>
+                </v-list-item-action-text>
+            </v-list-item>
         </v-card>
 	    <v-row>
 		
