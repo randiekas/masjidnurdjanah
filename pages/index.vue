@@ -16,12 +16,12 @@
 	<v-card dark color="primary" style="height:200px" rounded="0">
 
 	</v-card>
-	<v-container style="margin-top:-180px; height:95vh" class="teal lighten-5">
+	<v-container style="margin-top:-180px;" class="primary accent2 pb-16">
 		<v-card flat color="transparent">
 			<h1 class="white--text text-h4">Masjid Nurdjannah</h1>
-			<p class="white--text">Layanan digital mesjid nurdjannah SSP SALTRIVER</p>
+			<p class="white--text">Layanan digital mesjid nurdjannah SSP salt river</p>
 		</v-card>
-		<v-card>
+		<v-card rounded="lg">
 			<p class="mb-0 px-4 py-2"><b>Senin, 20 September</b></p>
 			<v-divider/>
 			<v-card-text class="d-flex align-center">
@@ -30,8 +30,8 @@
 						v-for="(item, index) in adzan"
 						:key="`item-${index}`"
 						class="text-center">
-						<v-icon class="primary--text">mdi-check-decagram</v-icon><br/>
-						<b>{{item.nama}}</b> <br/>
+						<v-icon class="success--text">mdi-check-decagram</v-icon><br/>
+						<b class="black--text">{{item.nama}}</b> <br/>
 						{{item.waktu}}
 					</v-col>
 				</v-row>
@@ -39,6 +39,19 @@
 		</v-card>
 	<v-row>
 		<v-col cols="12">
+			<p class="text-overline mb-0 d-flex mt-4" style="align-items:center">
+				Kajian Rutin <v-spacer/><v-chip x-small dark class="red">Terbaru</v-chip>
+			</p>
+			<v-slide-group
+				class="">
+				<v-slide-item
+					v-for="n in 3"
+					:key="n">
+					<v-card rounded="lg" class="mr-2" to="/kajian/1.png" target="_blank">
+						<v-img src="/kajian/1.png" width="200"/>
+					</v-card>
+				</v-slide-item>
+				</v-slide-group>
 		</v-col>
 
 		<v-col cols="12">
@@ -46,6 +59,7 @@
 				Program Berjalan
 			</p>
 			<v-card 
+				rounded="lg"
 				dark 
 				color="primary"
 				:to="`/program/1`"
@@ -64,6 +78,7 @@
 				</v-list-item>
 			</v-card>
 			<v-card 
+				rounded="lg"
 				class="mt-2"
 				dark 
 				color="primary"
@@ -89,6 +104,7 @@
 				Berita terkini
 			</p>
 			<v-card 
+				rounded="lg"
 				dark 
 				color="primary"
 				:to="`/program/1`"

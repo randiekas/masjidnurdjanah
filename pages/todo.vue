@@ -3,12 +3,12 @@
         <v-card dark color="primary" style="height:200px" rounded="0">
 
 	</v-card>
-	<v-container style="margin-top:-180px; height:95vh" class="teal lighten-5">
+	<v-container style="margin-top:-180px;" class="primary accent2 pb-16">
 		<v-card flat color="transparent">
 			<h1 class="white--text text-h4">Todo</h1>
 			<p class="white--text">Challenge mengikuti todo muslim, dan rasakan perubahanya dalam 40 hari.</p>
 		</v-card>
-        <v-alert type="warning">
+        <v-alert class="primary accent">
             Disclaimer<br/>
             <small>Dengan fitur todo ini, bukan maksud kami untuk menggurui. todo ini adalah ajakan kebaikan semata</small>
         </v-alert>

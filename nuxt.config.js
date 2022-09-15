@@ -43,6 +43,7 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/vuetify
     '@nuxtjs/vuetify',
+    '@nuxtjs/moment',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -76,9 +77,10 @@ export default {
       themes: {
         light: {
           // primary: '#4268F6',
-          primary: colors.teal.darken3,
-          accent: colors.grey.darken3,
-          secondary: colors.amber.darken3,
+          primary: '#796EF9',
+          accent: '#C6E6FF',
+          accent2: '#FEDADA',
+          secondary: '#FF9A0C',
           info: colors.teal.lighten1,
           warning: colors.amber.base,
           error: colors.deepOrange.accent4,

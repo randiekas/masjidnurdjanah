@@ -3,17 +3,17 @@
 	<v-bottom-navigation fixed>
 		<v-btn to="/">
 			<span>Beranda</span>
-			<v-icon>mdi-apps</v-icon>
+			<v-icon>mdi-square-rounded-badge-outline</v-icon>
 		</v-btn>
 
 		<v-btn to="/program">
 			<span>Program</span>
-			<v-icon>mdi-star</v-icon>
+			<v-icon>mdi-star-outline</v-icon>
 		</v-btn>
 		
 		<v-btn to="/hafalan">
 			<span>Hafalan</span>
-			<v-icon>mdi-book-open-variant</v-icon>
+			<v-icon>mdi-book-open-outline</v-icon>
 		</v-btn>
 
 		
@@ -23,7 +23,7 @@
 			value="nearby">
 			<span>Todo</span>
 
-			<v-icon>mdi-check</v-icon>
+			<v-icon>mdi-check-circle-outline</v-icon>
 		</v-btn>
 
 		<v-btn 
@@ -77,7 +77,7 @@ export default {
     position: relative;
 }
 .v-btn--active{
-	color: #00695c !important;
-	background: #d2e5e2!important;
+	color: #796EF9 !important;
+	background: #C6E6FF!important;
 }
 </style>

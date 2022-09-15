@@ -17,7 +17,7 @@
 	<v-card dark color="primary" style="height:200px" rounded="0">
 
 	</v-card>
-	<v-container style="margin-top:-180px;" class="teal lighten-5">
+	<v-container style="margin-top:-180px;" class="primary accent2">
 		<v-card flat color="transparent">
 			<h1 class="white--text text-h4">Hafalan</h1>
 			<p class="white--text">Challenge Menghafal 10 Ayat/hari</p>
@@ -66,7 +66,7 @@
 		<v-col cols="12">
 		</v-col>
 		<v-col cols="12">
-			<v-card dark color="deep-purple">
+			<v-card dark color="secondary">
 				<v-list-item
 					v-on:click="fabKeutamaanMenghafalAlquran=true">
 					<v-list-item-avatar>
@@ -120,7 +120,7 @@
 						v-on:click="handelMasukSurat(item)">
 						<v-list-item-avatar>
 							<v-avatar
-								color="teal darken-4">
+								color="secondary">
 								{{ item.id }}
 							</v-avatar>
 						</v-list-item-avatar>

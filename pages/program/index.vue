@@ -3,7 +3,7 @@
         <v-card dark color="primary" style="height:200px" rounded="0">
 
 	</v-card>
-	<v-container style="margin-top:-180px; height:95vh" class="teal lighten-5">
+	<v-container style="margin-top:-180px; height:95vh" class="primary accent2">
 		<v-card flat color="transparent">
 			<h1 class="white--text text-h4">Program</h1>
 			<p class="white--text">Berikut program program Masjid Nurdjanah</p>
