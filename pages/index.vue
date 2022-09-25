@@ -17,12 +17,17 @@
 
 	</v-card>
 	<v-container style="margin-top:-180px;" class="primary accent2 pb-16">
-		<v-card flat color="transparent">
-			<h1 class="white--text text-h4">Masjid Nurdjannah</h1>
-			<p class="white--text">Layanan digital mesjid nurdjannah SSP salt river</p>
+		<v-card flat color="transparent" class="d-flex mb-2">
+			<v-card rounded="lg" class="pa-1 mr-2" width="64">
+				<v-img src="/logo.png" />
+			</v-card>
+			<div>
+				<h1 class="white--text text-h4">Masjid Nurdjanah</h1>
+				<p class="white--text mb-0">Layanan digital mesjid nurdjannah</p>
+			</div>
 		</v-card>
 		<v-card rounded="lg">
-			<p class="mb-0 px-4 py-2"><b>Senin, 20 September</b></p>
+			<p class="mb-0 px-4 py-2"><b>{{ $moment().format('dddd, DD MMMM')}}</b></p>
 			<v-divider/>
 			<v-card-text class="d-flex align-center">
 				<v-row dense>
